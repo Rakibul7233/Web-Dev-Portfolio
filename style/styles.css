@@ -19,6 +19,9 @@
 .dark-3{
     color: #757575;
 }
+.dark-5{
+    color: #D1D1D1;
+}
 .btn-primary{
     background-color: #FD6E0A;
     font-weight: bold;
@@ -117,7 +120,7 @@ main{
     padding: 130px 150px;
     border-radius: 10px;
     text-align: center;
-    margin-top: 114px;
+    margin-top: 80px;
 }
 .about-items{
     display: flex;
@@ -151,4 +154,48 @@ main{
 }
 .skill-title{
     font-weight: 700px;
+}
+
+/* resume section  */
+ .resume{
+    margin: 130px 0 130px 0;
+    
+ }
+ .resume > .title{
+    text-align: center;
+ }
+
+.resume-box{
+    display: flex;
+    gap: 40px;
+    margin-top: 70px;
+}
+.education, .experience{
+    width: 45%;
+}
+
+.education-title{
+    margin-bottom: 40px;
+    font-weight: 700px;
+}
+.experience-title{
+    margin-bottom: 40px;
+    font-weight: 700px;
+}
+.resume-ebox{
+    max-width: 450px;
+}
+.resume-title{
+    font-weight: 700px;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+.resume-subtitle{
+    font-size: 20px;
+    margin: 10px 0;
+    
+}
+.resume-hr{
+    margin: 30px 0;
 }
