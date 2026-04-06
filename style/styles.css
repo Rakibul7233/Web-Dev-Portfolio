@@ -234,3 +234,30 @@ input , .input-massage{
    height: 150px;
 
 }
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    main{
+        margin: 0;
+    }
+
+.what-title, .what-description{
+    margin: 0px;
+    padding: 20px;
+}
+    .skills , .resume-box{
+        flex-direction: column;
+    }
+
+    .skill-item{
+        max-width: 100%;
+        padding: 20px;
+    }
+    .education, .experience{
+        width: 100%;
+        padding: 20px;
+    }
+}
