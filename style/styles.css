@@ -244,11 +244,11 @@ input , .input-massage{
         margin: 0;
     }
 
-.what-title, .what-description{
+.what-title, .what-description , .about{
     margin: 0px;
     padding: 20px;
 }
-    .skills , .resume-box{
+    .skills , .resume-box, .about-items{
         flex-direction: column;
     }
 
