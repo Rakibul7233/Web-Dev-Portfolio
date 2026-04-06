@@ -242,19 +242,37 @@ input , .input-massage{
 
 /* Responsive wibsite  */
 @media screen and (max-width:576px) {
+
+    header{
+        background-image: none;
+    }
+    .nav-title{
+        margin-left: 20px;
+    }
     main{
         margin: 0;
     }
+    nav>ul{
+        align-items: self-start;
+    }
+    nav>ul>li{
+        margin-bottom: 20px;
+    }
+    .banner-btn{
+        margin: 10px 0;
+    }
 
-.what-title, .what-description , .about{
+.what-title, .what-description , .about,
+    nav, nav>ul,.banner,.banner-content{
     margin: 0px;
     padding: 20px;
-}
-    .skills , .resume-box, .about-items, .footer-section{
+    }
+    .skills , .resume-box, .about-items, .footer-section,
+    nav , nav>ul, .banner{
         flex-direction: column;
     }
 
-    .skill-item{
+    .skill-item, .banner-pic{
         max-width: 100%;
         padding: 20px;
     }
